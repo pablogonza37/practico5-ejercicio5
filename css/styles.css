@@ -1,0 +1,49 @@
+.cronometro{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tiempo{
+    font-size: 200px;
+}
+span{
+    font-size: 150px;
+}
+#iniciarDetener, #reiniciar{
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 767px){
+    #tiempo{
+        font-size: 60px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .cronometro{
+        padding: 0;
+    }
+    #iniciarDetener, #reiniciar{
+        width: 80px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    }
+    
+    @media all and (min-width: 768px) and (max-width: 991px){
+        #tiempo{
+        font-size: 150px;
+    }
+    span{
+        font-size: 100px;
+    }
+    
+    }
+    @media all and (min-width: 992px){
+        
+    }
+    
